@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,6 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
   background: linear-gradient(180deg, #0a0a0a, #1a1a1a);
   padding: 0 20px;
 }
@@ -19,10 +20,11 @@ body {
   background: #000;
 }
 
+/* Contenedor de la galería */
 .gallery {
   display: grid;
   grid-template-columns: 1fr;
-  margin: 8px 0px; 
+  margin: 8px 0px;
 }
 
 .image-container {
@@ -43,7 +45,55 @@ body {
 }
 
 .imgs-port9 {
-  border: solid red 3px;
   position: relative;
 }
 
+/* Estilo para el contenido adicional debajo de la imagen solo en el índice 9 */
+.image-description {
+  position: absolute;
+  bottom: 4vw; 
+  left: 5vw;
+  z-index: 1;
+  text-align: left;
+  display: inline-block;
+  max-width: 90%; 
+  width: auto;
+  box-sizing: border-box;
+}
+
+/* Estilo para los enlaces */
+.contact-link {
+  font-family: 'Poppins', sans-serif;
+  color: #fdd1e0;
+  text-decoration: none;
+  font-size: 1.8vw; 
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para los íconos */
+.contact-link svg {
+  width: 1.5em; /* Ajusta el tamaño de los íconos */
+  height: 1.5em;
+}
+
+.contact-link i {
+  color: #fdd1e0;
+}
+
+.contact-link i:hover {
+  color: #ffffff; /* Cambio de color en hover para los íconos */
+}
+
+
+@media (min-width: 1300px) {
+  .contact-link {
+    font-size: 25px; /* Limita el tamaño de la fuente en pantallas grandes */
+  }
+}
