@@ -12,16 +12,16 @@ export function PortfolioApp() {
 	};
 	// Lista de rutas de imágenes
 	const images = [
-		"/src/assets/images/image(1).jpg",
-		"/src/assets/images/image(2).jpg",
-		"/src/assets/images/image(3).jpg",
-		"/src/assets/images/image(4).jpg",
-		"/src/assets/images/image(5).jpg",
-		"/src/assets/images/image(6).jpg",
-		"/src/assets/images/image(7).jpg",
-		"/src/assets/images/image(8).jpg",
-		"/src/assets/images/image(9).jpg",
-		"/src/assets/images/image(10).jpg",
+		"/assets/images/image(1).jpg",
+		"/assets/images/image(2).jpg",
+		"/assets/images/image(3).jpg",
+		"/assets/images/image(4).jpg",
+		"/assets/images/image(5).jpg",
+		"/assets/images/image(6).jpg",
+		"/assets/images/image(7).jpg",
+		"/assets/images/image(8).jpg",
+		"/assets/images/image(9).jpg",
+		"/assets/images/image(10).jpg",
 	];
 
 	return (
