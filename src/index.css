@@ -13,7 +13,7 @@ body {
 
 .cont {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -67,6 +67,7 @@ body {
   max-width: 90%; 
   width: auto;
   box-sizing: border-box;
+  align-items: center;
 }
 
 /* Estilo para los enlaces */
@@ -78,7 +79,10 @@ body {
   font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 7px;
+  padding-top: .5vw;
+  gap: 1vw;
+  height: max-content;
+
 }
 
 .contact-link:hover {
@@ -86,10 +90,7 @@ body {
 }
 
 /* Estilo para los íconos */
-.contact-link svg {
-  width: 1.5em; /* Ajusta el tamaño de los íconos */
-  height: 1.5em;
-}
+
 
 .contact-link i {
   color: #fdd1e0;
@@ -100,7 +101,7 @@ body {
 }
 
 
-@media (min-width: 1300px) {
+@media (min-width: 1200px) {
   .contact-link {
     font-size: 25px; /* Limita el tamaño de la fuente en pantallas grandes */
   }

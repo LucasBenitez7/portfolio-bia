@@ -46,9 +46,8 @@ export function PortfolioApp() {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<FaWhatsapp size={2} /> +34 641 048 149
+									<FaWhatsapp /> +34 641 048 149
 								</a>
-								<br />
 								{/* Mail icon with link */}
 								<a
 									href="mailto:pacheco_bianca@icloud.com"
@@ -56,7 +55,7 @@ export function PortfolioApp() {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<CiMail size={28} strokeWidth={1} /> pacheco_bianca@icloud.com
+									<CiMail strokeWidth={1} /> pacheco_bianca@icloud.com
 								</a>
 							</div>
 						)}
